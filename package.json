@@ -1,6 +1,6 @@
 {
   "name": "random-digit-stats",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "statistic for random X digit",
   "main": "index.js",
   "author": "elr0nda <elr0nda@geene.io>",
