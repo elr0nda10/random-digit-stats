@@ -1,0 +1,25 @@
+{
+  "name": "random-digit-stats",
+  "version": "0.0.1",
+  "description": "statistic for random X digit",
+  "main": "index.js",
+  "author": "elr0nda <elr0nda@geene.io>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "commit": "git add . && cz",
+    "release": "standard-version"
+  },
+  "dependencies": {
+    "crypto-random-string": "^3.3.0",
+    "yargs": "^16.0.3"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
